@@ -90,7 +90,6 @@ class ImgFigure extends React.Component {
    * @param {*} e 
    */
   handleClick(e){
-
     if(this.props.arrange.isCenter){
       this.props.inverse();
     }else{
@@ -330,8 +329,6 @@ class AppComponent extends React.Component {
           isCenter: false
         }
       }
-
-      debugger;
 
       if(imgsArrangeTopArr && imgsArrangeTopArr[0]){
         imgsArrangeArr.splice(topImgSpliceIndex, 0, imgsArrangeTopArr[0]);
